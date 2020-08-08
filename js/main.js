@@ -12,7 +12,7 @@ window.onload = function(){
         tabs_title[i].classList.remove('tab-title-active');
         tabs_content[i].classList.remove('tab-content-active');
       }
-  
+
     }
   
     function initTabs()
