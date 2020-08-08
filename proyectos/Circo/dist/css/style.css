@@ -1,0 +1,471 @@
+
+*{
+    padding: 0;
+    margin:0;
+ 
+}
+body p{
+    font-family: 'GeoRegular';
+}
+@font-face {
+    font-family: 'GeoLigth';
+    src:url('../font/geogtq-light-webfont.woff')format('woff'),
+    url('../font/geogtq-light-webfont.woff2')format('woff2')
+}
+@font-face {
+    font-family: 'GeoRegular';
+    src:url('../font/geogtq-regular-webfont.woff')format('woff'),
+    url('../font/geogtq-regular-webfont.woff2')format('woff2')
+}
+@font-face {
+    font-family: 'GeoBold';
+    src:url('../font/geogtq-semibold-webfont.woff')format('woff'),
+    url('../font/geogtq-semibold-webfont.woff2')format('woff2')
+}
+
+:root{
+    --width: 100px;
+    --font-size: 40px;
+}
+
+
+header{
+
+    width: 100%;
+
+    height: 50px;
+    background-color: #850054;
+   
+    padding-left: 50px;
+   
+}
+
+header a{
+
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 13px 0 13px;
+    font-family: 'GeoLigth'
+    
+}
+
+header a:hover{
+
+    color: white;
+    text-decoration: none;
+    background-color: #50064e;
+    
+}
+header a:active{
+    color: white;
+    background-color: #1d0c33;
+}
+.logo_wong{
+    position: relative;
+    max-width: var(--width);
+}
+
+header .btn
+	{
+        border-radius: 0;
+        height: 50px;
+        width: 50px;
+        margin: 0;
+        float: right;
+        background-color:#50064e;
+        font-size: 26px;
+        color: white;
+    }
+  .active{
+      background-color: #1d0c33;
+  }
+  .navscroll1 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll1.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+.navscroll2 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll2.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+.navscroll3 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll3.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+.navscroll4 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll4.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+.navscroll5 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll5.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+.navscroll6 {
+   
+    color:white;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll.azul {
+    background-color:#1d0c33;
+    color:white;
+}
+    
+@media screen and (max-width: 970px){
+
+	.menu a
+	{
+       display: block;
+       width: 100%;
+      
+    }
+    .menu a:hover
+	{
+       
+     background-color:#202020 ;
+    }
+    .menu{
+        margin-top: 50px;
+        float: left;
+    }
+    nav{
+        background-color: #202020;
+    }
+    .margin-left{
+        margin-left: 20%;
+    }
+    .cuadro{
+        margin: 0 auto;
+    }
+    .parrafo{
+        margin: 0 auto;
+    }
+    .c-logo img{
+        width: 100%;
+     }
+     .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+         display: none;
+     }
+     .logo_wong{
+        position: relative;
+        --width: 70px;
+    }
+    .auspiciadores h1{
+        --font-size:20px; 
+    }
+   
+
+        
+      
+      
+    
+    
+   
+   
+}
+
+
+
+    .fondo{
+
+        background:url(../img/fondo.png) no-repeat center center;
+        height:100%;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        
+    }
+    .margin-100{
+        padding-top: 100px;
+    }
+    .margin-200{
+        margin-top: 200px;
+    }
+
+
+    .cuadro{
+        width: 300px;
+        height: 150px;
+        padding-top:10px;
+    }
+    .inicio .cuadro{
+        border: silver 20px solid;
+            border-width: 20px 20px 20px 20px;
+            border-image-source: url("../img/border.png");
+            border-image-slice: 30 30 30 30;
+         
+            text-align: justify;
+            
+    }
+
+    .inicio h4{
+       
+        font-size: 12px;
+        letter-spacing: 0;  
+        font-family: 'GeoRegular';
+        color: white;
+       
+    }
+    .inicio h3{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 12px;
+        letter-spacing: 0;  
+        font-family: 'GeoRegular';
+        color:white;
+   
+    }
+    .inicio h1{
+        margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'GeoBold';
+    color: #850054;
+    
+
+    }
+    .parrafo{
+        width: 300px;
+        margin: 0 auto;
+        font-family: 'GeoLigth'
+    }
+
+    .c-parrafo{
+      
+     
+        font-size: 13px;
+        color: white;
+    }
+    .c-img{
+        padding-top:10px;
+  
+        
+    }
+    .cuadro{
+        margin: 0 auto;
+    }
+
+   
+    
+      
+       
+          .circo h3 img {
+            border: silver 50px solid;
+            border-width: 20px 20px 20px 20px;
+            border-image-source: url("../img/border.png");
+            border-image-slice: 30 30 30 30;
+          
+            text-align: justify;
+           
+           
+            
+        }
+        .galeria h1{
+            color: white;
+            font-family: 'GeoBold';
+        }
+       
+
+        .galeria .item img{
+            border: silver 50px solid;
+            border-width: 20px 20px 20px 20px;
+            border-image-source: url("../img/borde_cel.png");
+            border-image-slice: 30 30 30 30;
+          
+            text-align: justify;
+
+
+        }
+
+        #owl-demo .item img{
+            display: block;
+            width: 100%;
+            height:auto;
+          
+           
+
+        }
+        .owl-next{
+            position: relative;
+            bottom:300px;
+            left: 360px;
+          
+            height: 100px;
+            width: 100px;
+           
+            
+          
+        }
+       
+      
+        .owl-prev{
+            position: relative;
+            bottom:300px;
+            right:360px;
+          
+            height: 100px;
+            width: 100px;
+           
+            
+           
+        }
+      
+    
+
+
+.galeria .owl-theme .owl-dots .owl-dot span
+{
+	display: none;
+}
+.galeria .owl-theme .owl-nav [class*=owl-]:hover{
+    background:0.0;
+   
+}.galeria .owl-theme .owl-nav [class*=owl-]:active{
+    background:0.0;
+    border: none;
+   
+}
+.galeria_parrafo p{
+    color: white;
+    font-size: 17px;
+    
+}
+
+.compras .compra h4{
+    border: silver 50px solid;
+    border-width: 60px 20px 40px 20px;
+    border-image-source: url("../img/Rectángulo_tienda.png");
+    border-image-slice: 80 50 80 50;
+    font-family: 'GeoBold';
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+.compras .tienda h4{
+    border: silver 50px solid;
+    border-width: 60px 20px 40px 20px;
+    border-image-source: url("../img/Rectángulo_compra.png");
+    border-image-slice: 80 50 80 50;
+    font-family: 'GeoBold';
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+.compras p{
+
+    color: white;
+    font-size: 16px;
+}
+.compras span{
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.auspiciadores h1{
+    color: white;
+    font-size: var(--font-size);
+    font-family: 'GeoBold';
+}
+
+.auspi_tamaño{
+
+    width: 90%;
+    
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 10px;
+    border: silver 20px solid;
+    border-width: 20px 20px 20px 20px;
+    border-image-source: url("../img/border.png");
+    border-image-slice: 30 30 30 30;
+ 
+    text-align: justify;
+   
+  
+}
+.auspi_tamaño p{
+    margin: 10px;
+}
+.auspi_parrafo{
+    border-top: silver 20px solid;
+    border-width: 20px 20px 20px 20px;
+    border-image-source: url("../img/border.png");
+    border-image-slice: 30 30 30 30;
+ 
+    text-align: left;
+    width: 100%;
+
+   font-size: 18px;
+   color: white;
+}
+.legales_tamaño{
+
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 30px;
+    border: silver 20px solid;
+    border-width: 20px 20px 20px 20px;
+    border-image-source: url("../img/borde_parrafo.png");
+    border-image-slice: 30 30 30 30;
+ 
+    text-align: justify;
+   
+  
+}
+.legales h1{
+    color: white;
+    font-family: 'GeoBold';
+}
+
+
+
+
+
+
+
+
+
