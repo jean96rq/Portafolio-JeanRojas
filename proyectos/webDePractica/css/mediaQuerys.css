@@ -1,0 +1,162 @@
+/* MediaQuerys */
+/* MediaQuery : 890px */
+@media only screen and (max-width:960px){
+    /* MediaQuery de Nav */
+    nav .btn-menu > .fa-bars{
+        display: block;
+    } 
+    
+    nav{
+        width: 100%;   
+        padding-left: 0;
+    padding-right: 0;
+    }
+    nav ul{
+        position: absolute;
+        top: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+       
+        background: #010101;
+        height: 100vh;
+        margin-top: 0;
+
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    nav li a{
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+        line-height: 60px;
+    } 
+    /* MediaQuery de Nav */
+    /* MediaQuery Banner-Home */
+    .banner{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .info-banner{
+        width: 90%;
+        padding: 50px;
+        background:red;
+    }
+    /*MediaQuery Banner-Home */
+    /*MediaQuery Buscador */
+    .contenedor-buscador .info-buscador .categorias{
+       display: none;
+    }
+    .contenedor-buscador .info-buscador .conferencias .btn-categorias button{
+        min-width: 150px;
+    }
+    .contenedor-buscador .info-buscador .conferencias{
+        width: 100%;
+        
+    }
+    .contenedor-buscador .info-buscador .conferencias .contenedor-conferencias .card-conferencia{
+        width: 100%;    
+    }
+    .contenedor-buscador .info-buscador .conferencias .btn-categorias{
+        display: block;
+        
+    }
+     /*MediaQuery Buscador */
+     /* Cambiar */
+     .contenedor-detalle-conferencia{
+         display: flex;
+         flex-direction: column-reverse;
+         height: 100%;
+     }
+.contenedor-detalle-conferencia .detalle-confe{
+    width: 100%;
+   
+}
+.contenedor-detalle-conferencia .img-confe{
+    width: 100%;
+    
+   }
+   .contenedor-detalle-conferencia .detalle-confe .btn-ir-conferencia{
+
+   text-align: center;
+    
+}
+/* Cambiar */
+.banner-busqueda .info-banner-busqueda{
+    width: 90%;
+}
+.banner-busqueda .info-banner-busqueda input{
+    width:70%;
+    padding: 15px 20px;
+    font-size: 0.8em;
+}
+.banner-busqueda .info-banner-busqueda i{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:14px;
+    padding-bottom: 16px;
+    border: none;
+}
+
+    /* MediaQuery de Prueba de Popup */
+    #popup{
+        width: 60%;
+    }
+    .contenedor .articulo{
+        width: 90%;
+    }
+    /* MediaQuery de Prueba de Popup */
+    /* MediaQuery de Formulario de inicio de sesion */
+    .form{
+        width: 70%;
+        min-width:50%;
+    }
+
+    /* MediaQuery de Formulario de inicio de sesion */
+    /* MediaQuery de Formulario de registro */
+
+    .form-registro{  
+        width: 68%;
+        min-width:50%;
+    }
+    .form-registro .form-50{
+        width: 100%;
+    }
+    /* MediaQuery de Formulario de registro */
+    .contenedor-footer{
+        width: 90%;
+    }
+    .contenedor-footer .parte1{
+    width: 100%;
+    
+}
+    .contenedor-footer .parte2{
+        width: 100%;
+      
+    }
+    .contenedor-footer .parte3{
+        width: 100%;
+       
+    }
+    /* MediaQuery de Formulario de inicio de sesion */
+  
+}
+/* MediaQuery : 360px */
+@media only screen and (max-width:360px){
+    .borde-abajo{
+        display: none;
+    }
+}
+/* MediaQuery : 360px */
+/* MediaQuerys */
+
